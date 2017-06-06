@@ -28,7 +28,7 @@ public class GreetingControllerTest {
 	@Test
 	public void hello_shouldReturnSuccess() throws Exception {
 		String expectedGreeting = greetingController.hello();
-		assertEquals(expectedGreeting, "Hello Usser");
+		assertEquals(expectedGreeting, "Hello User");
 		
 	}
 }
