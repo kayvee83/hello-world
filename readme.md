@@ -1,1 +1,1 @@
-Repo with travis ci and heroku deployment.
+Repo with travis ci and heroku deployment
