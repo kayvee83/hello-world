@@ -1,10 +1,14 @@
 language: java
-
 before_install:
- - chmod +x gradlew
- 
+- chmod +x gradlew
 jdk:
- - openjdk8
- 
+- openjdk8
 dist: trusty
 sudo: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: mMBYaLftdMOYwWWkEtmqtfT/RLJ6gBnsewt8sWBBaGJJujUW2TW21zS8mbe/t2PqDXMRhiqsEj0fPrVmHsoNHkNJOQSUK8zGhEJaibcQk4OcskoF5roQsBu4ZAGeztq3v5JnEd986uTeux+SImVqHFOdB9TwboUk8hAGQXiPVmG6/8v6SYLCnCGf1znaYru4LCn9ZC2zaeWg4LT9uQ8i/pqf2J/jA3BmzjyXyxIRmX6F9Ao0AX35r6n+RQv6t0Yw078dd7IsXssNrn07SNEB1pjfawgtNgfLZCEUlHZ+6F7vRsoGNxqwyp2VuLDwEKytBdEDLF1ccnpB7NlU/nb1nhWHUDHtS9/fNNKxgeygc2js9pgmnEejzVMnLzLTpLmuzDnkxBQ8TgW+ZFR7qUdUVFDlmR68/ql+c46wvXoGZ12BiJMoTIUnZIpkzzmYhRzhpSdPa0fvqnRziJjmz4NiGTEi3LBI1k/Xb50KC6IefIQgLak7an3opuAaZCPxgmekrVN9buvwxAPGN2SgNV94LMeoDEFSAcufXZ4lt2pqkeY3i0u6Mk4d9cOrNl6XhaRCFknVumw0hSDtX6liGVege46S0lNH5AGkgYEr/2kqqJS98K/YyPPkxbkInn4E06MFfcFM4nKTxp76fEbADgyq55doiXPyjNASotuko1DzU5A=
+  app: helloworldkv
+  on:
+    repo: kayvee83/hello-world
