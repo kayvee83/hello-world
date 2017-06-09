@@ -16,7 +16,7 @@ S7jG1CRv/bGlTiU9+nsRZck/fPW96ERnW7pLlUak+ENzGsazITgbMN1w64cPOum/tXUNRl2dyvQ8C6JC
     branches:
     - master
 script:
-- "./gradlew sonarqube"
+ - sonar-scanner
 deploy:
   provider: heroku
   api_key:
