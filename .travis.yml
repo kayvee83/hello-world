@@ -6,7 +6,7 @@ jdk:
 dist: trusty
 sudo: false
 addons:
-  sonarqube:
+  sonarcloud:
     organization: kayvee83-github
     token:
         secure: "fEPtGL2NQPZ28u+6+ngbbK/qp+TO1hDreOuZRZDPlVyOkznvepmfhiAmdv8eIpNLMaR5zzXqtgsakQzXSjwfF1UmdZKXn1M3HEadsd0JiA4/eai++jzrvy70Ny32XGzAUzDqNlefsXhZs85H9Wc+b1VTc9HILv+HkXnxESKPUZ2fNhctpjdUjYwrfF85q
